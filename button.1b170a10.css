@@ -1,0 +1,2 @@
+.button-container{position:relative;width:264px;height:50px;overflow:hidden;border:1px solid #2060f6;transition:.5s;border-radius:8px}.button-container:hover{transform:scale(1.2)}.button-container:active{transform:scale(.9)}.button{width:264px;height:50px;font-family:Poppins,sans-serif;font-weight:600;font-size:15px;letter-spacing:1px;border-radius:8px;border:1px solid #2060f6;background-color:#2060f6;color:#fff}
+/*# sourceMappingURL=button.1b170a10.css.map */
