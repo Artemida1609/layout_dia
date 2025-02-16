@@ -46,8 +46,6 @@
   }
 
   &__title {
-    font-family: Poppins, sans-serif;
-    font-weight: 600;
     font-size: 32px;
 
     // width: 100%;
@@ -74,8 +72,15 @@
 
   border-radius: 16px;
 
+  top: 0;
+  position: relative;
+  transition: top ease 0.5s;
+
+  &:hover {
+    top: -20px;
+  }
+
   &__paragraph {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 13px;
 

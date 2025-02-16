@@ -33,7 +33,6 @@ $top-bar-height: calc(30px + 38px + 52px);
   }
 
   &__title {
-    font-weight: 600;
     font-size: 64px;
 
     height: 136px;
@@ -46,8 +45,6 @@ $top-bar-height: calc(30px + 38px + 52px);
   }
 
   &__paragraph {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     font-size: 18px;
 
     height: 54px;
@@ -58,53 +55,27 @@ $top-bar-height: calc(30px + 38px + 52px);
     margin: 0 auto 83px;
   }
 
-  &__button {
-    width: 264px;
-    height: 50px;
-
-    border-radius: 8px;
-    background-color: #2060f6;
-    border: #2060f6;
-
-    color: vars.$main-color-white;
-  }
-
   &__slider-section {
     position: relative;
 
     width: 688px;
+    height: 680px;
     height: calc(100vh - $top-bar-height);
-    content: url(../images/slider/header-watch.png);
+    background-image: url(../images/slider/header-watch.png);
     background-repeat: no-repeat;
+    background-position: center;
     object-fit: cover;
     align-self: flex-end;
 
     margin-bottom: 0;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
+
+    transition: all 1s;
   }
 
   &__slider-photo {
     height: 100%;
-  }
-}
-
-.nav {
-  &__list {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 48px;
-    height: 20px;
-    list-style: none;
-
-    margin-top: 52px;
-  }
-
-  &__link {
-    font-size: 13px;
-    color: white;
-    line-height: 20px;
   }
 }
 
@@ -135,9 +106,8 @@ $top-bar-height: calc(30px + 38px + 52px);
     align-items: center;
     gap: 24px;
 
-    // position: absolute;
-    margin-top: 564px;
-    bottom: 0;
+    position: absolute;
+    bottom: 48px;
   }
 
   &__photo-slider {
@@ -157,6 +127,10 @@ $top-bar-height: calc(30px + 38px + 52px);
     border-radius: 50%;
 
     padding: 7px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__arrow-img {
@@ -177,8 +151,6 @@ $top-bar-height: calc(30px + 38px + 52px);
   }
 
   &__paragraph {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     font-size: 14px;
 
     color: vars.$main-color-white;

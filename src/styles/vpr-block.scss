@@ -13,6 +13,7 @@
     height: 546px;
     width: 1450px;
     background-image: url(../images/shapes.png);
+    background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
 
@@ -32,8 +33,6 @@
   }
 
   &__title {
-    font-family: Poppins, sans-serif;
-    font-weight: 600;
     font-size: 52px;
 
     height: 78px;
@@ -46,7 +45,6 @@
   }
 
   &__paragraph {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 24px;
 
